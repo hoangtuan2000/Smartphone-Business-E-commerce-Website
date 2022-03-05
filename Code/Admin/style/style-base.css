@@ -1,0 +1,48 @@
+.background-image {
+    background: url(../asset/image-public/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.width-600 {
+    width: 600px;
+}
+
+.background-black-opacity{
+    background-color: rgba(0, 0, 0, 0.476) ;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.margin-10 {
+    margin: 10% auto;
+}
+
+.background-blue {
+    background-color: #0a54a8;
+}
+
+.text-header {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-btn {
+    font-size: 20px;
+}
+
+.text-table-show-product {
+    font-size: 16px;
+}
+
+.image-product-table {
+    height: 100px;
+    object-fit: contain;
+}
+
+/* anh chinh(avatar) cua san pham trong form trang them-cap nhat san pham */
+
+.image-avatar-product-form {
+    width: 80%;
+}

@@ -1,0 +1,23 @@
+.text-content-introduction {
+    font-size: 10px;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .text-content-introduction {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-content-introduction {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-content-introduction {
+        font-size: 16px;
+    }
+}

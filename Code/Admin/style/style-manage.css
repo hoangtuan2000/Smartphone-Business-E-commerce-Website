@@ -1,0 +1,57 @@
+body{
+    font-size: 15px;
+    background-color: lightblue;
+}
+
+.table th, .table td{
+    padding: 5px;
+    text-align: center;
+    color: black    ;
+}
+
+.text-notification-header {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+table{
+    background-color: #9faaaca1;
+}
+
+table input{
+    text-align: center;
+    background-color: unset;
+    border: none;
+}
+
+.width-102{
+    width: 102px;
+}
+
+.text-14{
+    font-size: 14px;
+}
+
+.text-16{
+    font-size: 16px;
+}
+
+.text-logo{
+    font-size: 25px;
+}
+
+.text-btn-menu{
+    font-size: 15px;
+}
+
+.table-image-product{
+    width: 80px;
+    height: 85px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px black solid;
+    border-radius: 4px;
+}

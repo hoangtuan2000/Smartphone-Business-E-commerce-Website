@@ -1,0 +1,18 @@
+.text-header{
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+}
+.text-header-menu{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.form-group{
+    font-size: 15px;
+}
+
+table tr td, table tr th{
+    font-size: 14px;
+}

@@ -1,0 +1,175 @@
+.list-1 {
+    font-size: 12px;
+}
+
+.list-2 {
+    font-size: 10px;
+}
+
+.text-header-terms-policies {
+    font-size: 15px;
+}
+
+.list-terms-policies {
+    list-style-type: upper-roman;
+    font-weight    : bold;
+    text-align     : justify;
+}
+
+.text-content-terms-policies {
+    font-size  : 12px;
+    font-weight: bold;
+}
+
+.text-content-header {
+    font-size  : 10px;
+    font-weight: bold;
+}
+
+.text-content {
+    font-size  : 10px;
+    font-weight: normal;
+}
+
+.text-content::before {
+    content: "_ ";
+}
+
+.text-normal {
+    font-size  : 10px;
+    font-weight: normal;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .list-1 {
+        font-size: 13px;
+    }
+
+    .list-2 {
+        font-size: 11px;
+    }
+
+    .text-header-terms-policies {
+        font-size: 16px;
+    }
+
+    .list-terms-policies {
+        list-style-type: upper-roman;
+        font-weight    : bold;
+        text-align     : justify;
+    }
+
+    .text-content-terms-policies {
+        font-size  : 13px;
+        font-weight: bold;
+    }
+
+    .text-content-header {
+        font-size  : 11px;
+        font-weight: bold;
+    }
+
+    .text-content {
+        font-size  : 11px;
+        font-weight: normal;
+    }
+
+    .text-content::before {
+        content: "_ ";
+    }
+
+    .text-normal {
+        font-size  : 11px;
+        font-weight: normal;
+    }
+}
+
+@media (min-width: 992px) {
+    .list-1 {
+        font-size: 14px;
+    }
+
+    .list-2 {
+        font-size: 13px;
+    }
+
+    .text-header-terms-policies {
+        font-size: 17px;
+    }
+
+    .list-terms-policies {
+        list-style-type: upper-roman;
+        font-weight    : bold;
+        text-align     : justify;
+    }
+
+    .text-content-terms-policies {
+        font-size  : 15px;
+        font-weight: bold;
+    }
+
+    .text-content-header {
+        font-size  : 13px;
+        font-weight: bold;
+    }
+
+    .text-content {
+        font-size  : 13px;
+        font-weight: normal;
+    }
+
+    .text-content::before {
+        content: "_ ";
+    }
+
+    .text-normal {
+        font-size  : 13px;
+        font-weight: normal;
+    }
+}
+
+@media (min-width: 1200px) {
+    .list-1 {
+        font-size: 15px;
+    }
+
+    .list-2 {
+        font-size: 14px;
+    }
+
+    .text-header-terms-policies {
+        font-size: 25px;
+    }
+
+    .list-terms-policies {
+        list-style-type: upper-roman;
+        font-weight    : bold;
+        text-align     : justify;
+    }
+
+    .text-content-terms-policies {
+        font-size  : 16px;
+        font-weight: bold;
+    }
+
+    .text-content-header {
+        font-size  : 14px;
+        font-weight: bold;
+    }
+
+    .text-content {
+        font-size  : 14px;
+        font-weight: normal;
+    }
+
+    .text-content::before {
+        content: "_ ";
+    }
+
+    .text-normal {
+        font-size  : 14px;
+        font-weight: normal;
+    }
+}

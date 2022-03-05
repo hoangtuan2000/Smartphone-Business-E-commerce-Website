@@ -1,0 +1,849 @@
+body {
+    background-image: url(../asset/image-public/image-background.jpg);
+}
+
+thead tr{
+    background-color: #0a54a89e;
+}
+
+/* không hiển thị box-shadow trên button */
+.btn:focus {
+    box-shadow: none;
+}
+
+.link-terms-policies {
+    color: white;
+}
+
+.link-terms-policies:hover {
+    color      : black;
+    font-weight: bold;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.object-fit-contain {
+    object-fit: contain;
+}
+
+.text-12{
+    font-size: 12px;
+}
+
+.width-8 {
+    width: 8%;
+}
+
+.width-6 {
+    width: 6%;
+}
+
+.width-10 {
+    width: 10%;
+}
+
+.width-49 {
+    width: 49%;
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.height-550 {
+    height: 550px;
+}
+
+.min-height-360{
+    min-height: 360px;
+}
+.min-height-400{
+    min-height: 400px;
+}
+.min-height-500{
+    min-height: 500px;
+}
+.min-height-600{
+    min-height: 600px;
+}
+
+.min-height-1000{
+    min-height: 1000px;
+}
+.padding-2px {
+    padding: 2px;
+}
+
+.magin-1 {
+    margin: 0.1%;
+}
+
+.btn-active {
+    background-color: #76aeee;
+    border-radius   : 6px;
+}
+
+.icon-form {
+    font-size: 12px;
+    color    : white;
+}
+
+/**************************************************** Icon ****************************************************/
+/* buton next, previous trong slider*/
+.icon-slider {
+    width : 8px;
+    height: 14px;
+}
+
+/**************************************************** Button ****************************************************/
+/* tên hãng trong bộ lọc filter */
+.btn-filter-brand-name {
+    width: 15%;
+}
+
+/* checkbox kích thước trong đăng ký */
+.chk-register {
+    width: 8px;
+}
+
+/**************************************************** Thẻ A Trong Top-Product ****************************************************/
+.a-top-product {
+    color: black;
+}
+
+.a-top-product:hover {
+    text-decoration: none;
+}
+
+/**************************************************** Background ****************************************************/
+.background-blue {
+    background-color: #0a54a8;
+}
+
+.background-icon {
+    background-color: #5bc0de;
+}
+
+/* .background-grey-opacity{
+    background-color:#d0d0d0;  
+} */
+
+/**************************************************** Hover ****************************************************/
+.hover-btn:hover {
+    background-color: #347fd6;
+    border-radius   : 6px;
+}
+
+.hover-product {
+    transition: transform 0.5s;
+}
+
+.hover-product:hover {
+    transform       : scale(1.02, 1.02);
+    background-color: rgb(245, 245, 245);
+}
+
+.hover-product:hover .text-name-product {
+    color: blue;
+}
+
+.hover-product:hover .text-price-new {
+    color: red;
+}
+
+/**************************************************** Div ****************************************************/
+/* khung giảm giá trong sản phẩm */
+.div-discount {
+    color         : red;
+    /* font-weight: bold; */
+    font-size     : 6px;
+}
+
+/* khung sản phẩm trong sản phẩm nổi bật*/
+.div-top-product {
+    width: 64px;
+    height: 130px;
+}
+
+/* khung sản phẩm */
+.div-product {
+    width: 77px;
+    height: 130px;
+}
+
+
+/**************************************************** Navbar ****************************************************/
+/* icon navbar header-menu mở menu khi xem điện thoại  */
+.navbar-toggler-icon {
+    height: 20px;
+}
+
+
+/**************************************************** Text ****************************************************/
+/* chữ header trong modal thông báo đăng ký thành công */
+.text-header-modal-notification {
+    font-size  : 20px;
+    font-weight: bold;
+    color      : blue;
+}
+
+/* chữ content trong modal thông báo đăng ký thành công */
+.text-content-modal-notification {
+    font-size: 13px;
+    color    : red;
+}
+
+/* chữ hiển thị lỗi trong phần đăng nhập, đăng xuất */
+.text-error {
+    font-size: 9px;
+    color    : red;
+}
+
+/* chữ logo */
+.text-logo-shop {
+    font-size: 18px;
+}
+
+/* tên các chức năng navbar header-menu */
+.text-nav-item {
+    font-size: 10px;
+}
+
+/* chữ "Danh Sách Sản Phẩm" trong menu */
+.text-navbar {
+    font-size: 12px;
+}
+
+/* header chữ "san pham noi bat" */
+.text-header-top-product {
+    font-size  : 12px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* chữ ten san pham */
+.text-name-product {
+    font-size       : 6px;
+    /* font-weight  : bold; */
+    line-height     : 12px;
+    margin-bottom   : 0px;
+}
+
+/* chữ giá cũ - mới của sản phẩm */
+.text-price-old {
+    font-size      : 6px;
+    text-decoration: line-through;
+    font-style     : italic;
+    margin-bottom  : 0px;
+}
+
+.text-price-new {
+    font-size    : 6px;
+    font-weight  : 500;
+    margin-bottom: 0px;
+}
+
+.text-price-old::after,
+.text-price-new::after {
+    content: " VNĐ";
+}
+
+/* chữ "bộ lọc" */
+.text-filter {
+    font-size: 8px;
+}
+
+/* chữ "hãng|giá|...." trong "bộ lọc" */
+.text-filter-details {
+    font-size: 8px;
+}
+
+/* chữ trong button bên trong bộ lọc filter */
+.text-filter-btn {
+    font-size    : 6px;
+    margin       : 0px;
+    margin-bottom: 2px;
+}
+
+/* chữ Đăng Nhập Trong Modal */
+.text-header-modal {
+    font-size  : 16px;
+    font-weight: 500;
+}
+
+/* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+.text-content-modal {
+    font-size: 10px;
+}
+
+/* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+.text-button-modal {
+    font-size: 13px;
+}
+
+/* chữ nội dung footer  */
+.text-footer {
+    font-size: 6px;
+}
+
+.text-top-not-promotion{
+    text-align: center; 
+    color: white;
+    font-size: 20px;
+    padding-top: 10%;
+    background-color: rgba(0, 0, 0, 0.292);
+    border-radius: 6px; 
+}
+
+
+/**************************************************** Font-Size ****************************************************/
+.font-size-6px {
+    font-size: 6px;
+}
+
+.font-size-8px {
+    font-size: 8px;
+}
+
+.font-size-12px {
+    font-size: 12px;
+}
+
+/**************************************************** Breadcrumb ****************************************************/
+/* chữ trong breadcrumb */
+.breadcrumb-item {
+    font-size: 10px;
+}
+
+/**************************************************** Image ****************************************************/
+.image-slider {
+    height: 175px;
+}
+
+.image-slider-left {
+    height: 95px;
+}
+
+.image-top-product {
+    margin-top: 6px;
+    height    : 65px;
+}
+
+/*************************************************** Input ****************************************************/
+/* kích thước khung input trong modal login */
+.input-login {
+    height: 25px;
+}
+
+
+@media (min-width: 576px) {
+
+    /* khung giảm giá trong sản phẩm */
+    .div-discount {
+        color         : red;
+        /* font-weight: bold; */
+        font-size     : 10px;
+    }
+
+    /* chữ ten san pham */
+    .text-name-product {
+        font-size       : 10px;
+        /* font-weight  : bold; */
+        line-height     : 17px;
+        margin-bottom   : 0px;
+    }
+
+    /* chữ giá cũ - mới của sản phẩm */
+    .text-price-old {
+        font-size      : 10px;
+        text-decoration: line-through;
+        font-style     : italic;
+        margin-bottom  : 0px;
+    }
+
+    .text-price-new {
+        font-size    : 12px;
+        font-weight  : 500;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* chữ header trong modal thông báo đăng ký thành công */
+    .text-header-modal-notification {
+        font-size  : 22px;
+        font-weight: bold;
+        color      : blue;
+    }
+
+    /* chữ content trong modal thông báo đăng ký thành công */
+    .text-content-modal-notification {
+        font-size: 15px;
+        color    : red;
+    }
+
+    /* chữ hiển thị lỗi trong phần đăng nhập, đăng xuất */
+    .text-error {
+        font-size: 11px;
+        color    : red;
+    }
+
+    /* chữ logo */
+    .text-logo-shop {
+        font-size: 27px;
+    }
+
+    /* icon navbar header-menu mở menu khi xem điện thoại  */
+    .navbar-toggler-icon {
+        height: 15px;
+    }
+
+    /* tên các chức năng navbar header-menu */
+    .text-nav-item {
+        font-size: 13px;
+    }
+
+    /* chữ "Danh Sách Sản Phẩm" trong menu */
+    .text-navbar {
+        font-size: 15px;
+    }
+
+    /*  */
+    .breadcrumb-item {
+        font-size: 15px;
+    }
+
+    /* header chữ "san pham noi bat" */
+    .text-header-top-product {
+        font-size  : 13px;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .image-slider {
+        height: 250px;
+    }
+
+    .image-slider-left {
+        height: 123px;
+    }
+
+    .image-top-product {
+        margin-top: 10px;
+        height    : 116px;
+    }
+
+    /* buton next, previous trong slider*/
+    .icon-slider {
+        width : 9px;
+        height: 15px;
+    }
+
+    /* khung giảm giá trong sản phẩm */
+    .div-discount {
+        color         : red;
+        /* font-weight: bold; */
+        font-size     : 10px;
+    }
+
+    /* chữ ten san pham */
+    .text-name-product {
+        font-size       : 10px;
+        /* font-weight  : bold; */
+        line-height     : 17px;
+        margin-bottom   : 0px;
+    }
+
+    /* chữ giá cũ - mới của sản phẩm */
+    .text-price-old {
+        font-size      : 10px;
+        text-decoration: line-through;
+        font-style     : italic;
+        margin-bottom  : 0px;
+    }
+
+    .text-price-new {
+        font-size    : 12px;
+        font-weight  : 500;
+        margin-bottom: 0px;
+    }
+
+    /* chữ "bộ lọc" */
+    .text-filter {
+        font-size: 13px;
+    }
+
+    /* tên hãng trong bộ lọc filter */
+    .btn-filter-brand-name {
+        width: 13%;
+    }
+
+    /* chữ "hãng|giá|...." trong "bộ lọc" */
+    .text-filter-details {
+        font-size: 12px;
+    }
+
+    /* chữ trong button bên trong bộ lọc filter */
+    .text-filter-btn {
+        font-size    : 10px;
+        margin       : 0px;
+        margin-bottom: 2px;
+    }
+
+    /* chữ Đăng Nhập Trong Modal */
+    .text-header-modal {
+        font-size  : 20px;
+        font-weight: 500;
+    }
+
+    /* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+    .text-content-modal {
+        font-size: 12px;
+    }
+
+    /* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+    .text-button-modal {
+        font-size: 15px;
+    }
+
+    /* khung giảm giá trong sản phẩm */
+    .div-top-product {
+        width: 123px;
+        height: 224px;
+    }
+
+    /* khung sản phẩm */
+    .div-product {
+        width: 136px;
+        height: 224px;
+    }
+
+    /* chữ nội dung footer  */
+    .text-footer {
+        font-size: 10px;
+    }
+
+    /* kích thước khung input trong modal login */
+    .input-login {
+        height: 30px;
+    }
+
+    .icon-form {
+        font-size: 15px;
+        color    : white;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* chữ header trong modal thông báo đăng ký thành công */
+    .text-header-modal-notification {
+        font-size  : 23px;
+        font-weight: bold;
+        color      : blue;
+    }
+
+    /* chữ content trong modal thông báo đăng ký thành công */
+    .text-content-modal-notification {
+        font-size: 16px;
+        color    : red;
+    }
+
+    /* chữ hiển thị lỗi trong phần đăng nhập, đăng xuất */
+    .text-error {
+        font-size: 13px;
+        color    : red;
+    }
+
+    /* chữ logo */
+    .text-logo-shop {
+        font-size: 30px;
+    }
+
+    /* tên các chức năng navbar header-menu */
+    .text-nav-item {
+        font-size: 16px;
+    }
+
+    /* chữ "Danh Sách Sản Phẩm" trong menu */
+    .text-navbar {
+        font-size: 17px;
+    }
+
+    /* header chữ "san pham noi bat" */
+    .text-header-top-product {
+        font-size  : 18px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .image-slider {
+        height: 340px;
+    }
+
+    .image-slider-left {
+        height: 168px;
+    }
+
+    .image-top-product {
+        margin-top: 15px;
+        height    : 160px;
+    }
+
+    /* buton next, previous trong slider*/
+    .icon-slider {
+        width : 20px;
+        height: 14px;
+    }
+
+    /* khung giảm giá trong sản phẩm */
+    .div-discount {
+        color         : red;
+        /* font-weight: bold; */
+        font-size     : 13px;
+    }
+
+    /* chữ ten san pham */
+    .text-name-product {
+        font-size       : 13px;
+        /* font-weight  : bold; */
+        line-height     : 23px;
+        margin-bottom   : 0px;
+    }
+
+    /* chữ giá cũ - mới của sản phẩm */
+    .text-price-old {
+        font-size      : 13px;
+        text-decoration: line-through;
+        font-style     : italic;
+        margin-bottom  : 0px;
+    }
+
+    .text-price-new {
+        font-size    : 16px;
+        font-weight  : 500;
+        margin-bottom: 0px;
+    }
+
+    /* chữ "bộ lọc" */
+    .text-filter {
+        font-size: 16px;
+    }
+
+    /* tên hãng trong bộ lọc filter */
+    .btn-filter-brand-name {
+        width: 11%;
+    }
+
+    /* chữ "hãng|giá|...." trong "bộ lọc" */
+    .text-filter-details {
+        font-size: 14px;
+    }
+
+
+    /* chữ trong button bên trong bộ lọc filter */
+    .text-filter-btn {
+        font-size: 12px;
+        margin   : 0px;
+        margin   : 3px;
+    }
+
+    /* chữ Đăng Nhập Trong Modal Login*/
+    .text-header-modal {
+        font-size  : 23px;
+        font-weight: 500;
+    }
+
+    /* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+    .text-content-modal {
+        font-size: 15px;
+    }
+
+    /* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+    .text-button-modal {
+        font-size: 15px;
+    }
+
+    /* khung giảm giá trong sản phẩm */
+    .div-top-product {
+        width: 170px;
+        height: 304px;
+    }
+
+    /* khung sản phẩm */
+    .div-product {
+        width: 184px;
+        height: 304px;
+    }
+
+    /* chữ nội dung footer  */
+    .text-footer {
+        font-size: 12px;
+    }
+
+    /* kích thước khung input trong modal login */
+    .input-login {
+        height: 32px;
+    }
+
+    .icon-form {
+        font-size: 16px;
+        color    : white;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* chữ header trong modal thông báo đăng ký thành công */
+    .text-header-modal-notification {
+        font-size  : 25px;
+        font-weight: bold;
+        color      : blue;
+    }
+
+    /* chữ content trong modal thông báo đăng ký thành công */
+    .text-content-modal-notification {
+        font-size: 18px;
+        color    : red;
+    }
+
+    /* chữ hiển thị lỗi trong phần đăng nhập, đăng xuất */
+    .text-error {
+        font-size: 14px;
+        color    : red;
+    }
+
+    /* chữ logo */
+    .text-logo-shop {
+        font-size: 35px;
+    }
+
+    /* tên các chức năng navbar header-menu */
+    .text-nav-item {
+        font-size: 16px;
+    }
+
+    .image-slider {
+        height: 400px;
+    }
+
+    .image-slider-left {
+        height: 198px;
+    }
+
+    .image-top-product {
+        margin-top: 20px;
+        height    : 190px;
+    }
+
+    /* buton next, previous trong slider*/
+    .icon-slider {
+        width : 22px;
+        height: 15px;
+    }
+
+    /* header chữ "san pham noi bat" */
+    .text-header-top-product {
+        font-size  : 22px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    /* khung giảm giá trong sản phẩm */
+    .div-discount {
+        color         : red;
+        /* font-weight: bold; */
+        font-size     : 18px;
+    }
+
+    /* chữ ten san pham */
+    .text-name-product {
+        font-size       : 17px;
+        /* font-weight  : bold; */
+        line-height     : 25px;
+        margin-bottom   : 0px;
+    }
+
+    /* chữ giá cũ - mới của sản phẩm */
+    .text-price-old {
+        font-size      : 15px;
+        text-decoration: line-through;
+        font-style     : italic;
+        margin-bottom  : 0px;
+    }
+
+    .text-price-new {
+        font-size    : 19px;
+        font-weight  : 500;
+        margin-bottom: 0px;
+    }
+
+    /* chữ "bộ lọc" */
+    .text-filter {
+        font-size: 18px;
+    }
+
+    /* btn tên hãng trong bộ lọc filter */
+    .btn-filter-brand-name {
+        width: 10%;
+        ;
+    }
+
+    /* chữ "hãng|giá|...." trong "bộ lọc" */
+    .text-filter-details {
+        font-size: 15px;
+    }
+
+    /* chữ trong button bên trong bộ lọc filter */
+    .text-filter-btn {
+        font-size: 15px;
+        margin   : 0px;
+        margin   : 3px;
+    }
+
+    /* chữ Đăng Nhập Trong Modal */
+    .text-header-modal {
+        font-size  : 25px;
+        font-weight: 500;
+    }
+
+    /* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+    .text-content-modal {
+        font-size: 15px;
+    }
+
+    /* chữ email, mật khẩu, quên mật khẩu Trong Modal Login*/
+    .text-button-modal {
+        font-size: 16px;
+    }
+
+    /* khung giảm giá trong sản phẩm */
+    .div-top-product {
+        width: 206px;
+        height: 360px;
+    }
+
+    /* khung sản phẩm */
+    .div-product {
+        width: 220px;
+        height: 360px;
+    }
+
+    /* chữ nội dung footer  */
+    .text-footer {
+        font-size: 14px;
+    }
+
+    /* kích thước khung input trong modal login */
+    .input-login {
+        height: 35px;
+    }
+
+    .icon-form {
+        font-size: 18px;
+        color    : white;
+    }
+}

@@ -1,0 +1,158 @@
+/* chữ giỏ hàng của bạn trong trang cart */
+.text-cart {
+    font-size  : 10px;
+    font-weight: bold;
+}
+
+.table-image-cart {
+    width: 6%;
+}
+
+.text-table-cart {
+    font-size: 8px;
+}
+
+.price::after {
+    content: " VND";
+}
+
+.text-total {
+    color      : red;
+    font-weight: bold;
+}
+
+.input-name-product {
+    width: 80px;
+}
+
+.input-sum-product {
+    width: 55px;
+}
+
+.hover-btn-remote:hover {
+    background-color: white;
+}
+
+.btn-minus-plus {
+    width : 10px;
+    height: 12px;
+}
+
+.input-number-product {
+    height   : 10px;
+    width    : 22px;
+    font-size: 8px;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    /* chữ giỏ hàng của bạn trong trang cart */
+    .text-cart {
+        font-size  : 15px;
+        font-weight: bold;
+    }
+
+    .text-table-cart {
+        font-size: 13px;
+    }
+
+    .text-total {
+        color      : red;
+        font-weight: bold;
+    }
+
+    .input-name-product {
+        width: 190px;
+    }
+
+    .input-sum-product {
+        width: 70px;
+    }
+
+    .btn-minus-plus {
+        width : 12px;
+        height: 15px;
+    }
+
+    .input-number-product {
+        height   : 15px;
+        width    : 40px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* chữ giỏ hàng của bạn trong trang cart */
+    .text-cart {
+        font-size  : 18px;
+        font-weight: bold;
+    }
+
+    .text-table-cart {
+        font-size: 15px;
+    }
+
+    .text-total {
+        color      : red;
+        font-weight: bold;
+    }
+
+    .input-name-product {
+        width: 290px;
+    }
+
+    .input-sum-product {
+        width: 90px;
+    }
+
+    .btn-minus-plus {
+        width : 18px;
+        height: 18px;
+    }
+
+    .input-number-product {
+        height   : 18px;
+        width    : 48px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* chữ giỏ hàng của bạn trong trang cart */
+    .text-cart {
+        font-size  : 20px;
+        font-weight: bold;
+    }
+
+    .text-table-cart {
+        font-size: 15px;
+    }
+
+    .text-total {
+        color      : red;
+        font-weight: bold;
+    }
+
+    .input-name-product {
+        width: 300px;
+    }
+
+    .input-sum-product {
+        width: 100px;
+    }
+
+    .btn-minus-plus {
+        width : 15px;
+        height: 16px;
+    }
+
+    .input-number-product {
+        height   : 16px;
+        width    : 50px;
+        font-size: 14px;
+    }
+}

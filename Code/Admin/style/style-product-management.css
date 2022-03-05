@@ -1,0 +1,39 @@
+.image-product{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.div-show-image {
+    width: 198px;
+    height: 250px;
+    border: 2px white solid;
+    border-radius: 4px;
+    margin: 2px;
+    background-color: #ffffff54;
+}
+
+.text-notification-header {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+ .fa-camera {
+     margin-top: 50%;
+    font-size: 30px;
+}
+
+.form-control, .custom-select {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-select:focus {
+    background-color: rgba(196, 196, 196, 0.387);
+}

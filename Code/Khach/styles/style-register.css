@@ -1,0 +1,147 @@
+/**************************************************** Button ****************************************************/
+/* checkbox kích thước trong đăng ký */
+.chk-register {
+    width: 8px;
+}
+
+
+/**************************************************** Text ****************************************************/
+/* chữ trong register */
+.text-content-register {
+    font-size: 9px;
+}
+
+/* chữ "đồng ý điều khoản" trong register */
+.text-checkbox-register {
+    font-size: 8px;
+}
+
+/* chữ "đăng ký" trong button đăng ký */
+.text-btn-register {
+    font-size: 10px;
+}
+
+
+/*************************************************** Input ****************************************************/
+/* kích thước khung input trong modal login */
+.input-register {
+    height: 18px;
+}
+
+
+@media (min-width: 576px) {
+
+    /* khung giảm giá trong sản phẩm */
+    .div-discount {
+        color         : red;
+        /* font-weight: bold; */
+        font-size     : 10px;
+    }
+
+    /* chữ ten san pham */
+    .text-name-product {
+        font-size       : 10px;
+        /* font-weight  : bold; */
+        line-height     : 17px;
+        margin-bottom   : 0px;
+    }
+
+    /* chữ giá cũ - mới của sản phẩm */
+    .text-price-old {
+        font-size      : 10px;
+        text-decoration: line-through;
+        font-style     : italic;
+        margin-bottom  : 0px;
+    }
+
+    .text-price-new {
+        font-size    : 12px;
+        font-weight  : 500;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* chữ trong register */
+    .text-content-register {
+        font-size: 12px;
+    }
+
+    /* checkbox kích thước trong đăng ký */
+    .chk-register {
+        width: 10px;
+    }
+
+    /* chữ "đồng ý điều khoản" trong register */
+    .text-checkbox-register {
+        font-size: 10px;
+    }
+
+    /* chữ "đăng ký" trong button đăng ký */
+    .text-btn-register {
+        font-size: 14px;
+    }
+
+    /* kích thước khung input trong modal login */
+    .input-register {
+        height: 22px;
+    }
+}
+
+@media (min-width: 992px) {
+
+
+    /* chữ trong register */
+    .text-content-register {
+        font-size: 14px;
+    }
+
+    /* checkbox kích thước trong đăng ký */
+    .chk-register {
+        width: 12px;
+    }
+
+    /* chữ "đồng ý điều khoản" trong register */
+    .text-checkbox-register {
+        font-size: 12px;
+    }
+
+    /* chữ "đăng ký" trong button đăng ký */
+    .text-btn-register {
+        font-size: 16px;
+    }
+
+    /* kích thước khung input trong modal login */
+    .input-register {
+        height: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* chữ trong register */
+    .text-content-register {
+        font-size: 16px;
+    }
+
+    /* checkbox kích thước trong đăng ký */
+    .chk-register {
+        width: 13px;
+    }
+
+    /* chữ "đồng ý điều khoản" trong register */
+    .text-checkbox-register {
+        font-size: 14px;
+    }
+
+    /* chữ "đăng ký" trong button đăng ký */
+    .text-btn-register {
+        font-size: 18px;
+    }
+
+    /* kích thước khung input trong modal login */
+    .input-register {
+        height: 30px;
+    }
+}

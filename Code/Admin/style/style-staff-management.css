@@ -1,0 +1,15 @@
+.text-notification-header {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.form-control, .custom-select {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+}

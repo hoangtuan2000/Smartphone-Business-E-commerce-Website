@@ -1,0 +1,553 @@
+/* text */
+/* chữ header thông báo thêm vào giỏ hàng */
+.text-header-modal-add-cart {
+    font-size  : 15px;
+    color      : blue;
+    font-weight: bold;
+}
+
+/* chữ content thông báo thêm vào giỏ hàng */
+.text-content-modal-add-cart {
+    font-size: 12px;
+    color    : black;
+}
+
+.text-name-product-detail {
+    font-size  : 12px;
+    font-weight: bold;
+}
+
+.text-price-old-detail {
+    font-size      : 10px;
+    font-style     : italic;
+    text-decoration: line-through;
+    opacity        : 0.6;
+}
+
+.text-price-new-detail {
+    font-size  : 16px;
+    font-weight: bold;
+    color      : rgb(226, 29, 29);
+}
+
+.text-price-old-detail::after {
+    content: " VNĐ";
+}
+
+.text-header-warranty {
+    background-color: #007bff;
+    font-size       : 10px;
+    color           : white;
+    text-align      : center;
+}
+
+.text-content-warranty {
+    font-size: 10px;
+    color    : black;
+}
+
+.text-content-intro {
+    font-size : 10px;
+    text-align: justify;
+}
+
+.text-table-header-config-info {
+    font-size: 10px;
+}
+
+.text-table-content {
+    font-size: 10px;
+}
+
+.text-header-info{
+    font-size: 12px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 2px;
+}
+
+
+/* button */
+.btn-buy {
+    background-color: #fb6e2e;
+    font-size       : 10px;
+    font-weight     : bold;
+    color           : white;
+    transition      : transform 0.4s;
+}
+
+.btn-add-cart {
+    background-color: #007bff;
+    font-size       : 10px;
+    font-weight     : bold;
+    color           : white;
+    transition      : transform 0.4s;
+}
+
+.btn-buy:hover,
+.btn-add-cart:hover {
+    color    : white;
+    transform: scale(1.04, 1.04);
+}
+
+.btn-product-detail {
+    background-color: gray;
+    color           : white;
+    font-size       : 10px;
+    border-radius   : 20px;
+}
+
+.btn-product-detail-default {
+    background-color: #007bff;
+    color           : white;
+    font-size       : 10px;
+    border-radius   : 20px;
+}
+
+.btn-product-detail:hover {
+    color: white;
+}
+
+.btn-close {
+    font-size: 10px;
+}
+
+.btn-modal-cart {
+    font-size: 10px;
+    color    : white;
+}
+
+/* image */
+.image-product-detail {
+    height: 200px;
+}
+
+.imgage-product-configuration-information {
+    height: 220px;
+}
+
+.imgage-product-introduction {
+    height: 160px;
+}
+
+/* icon star */
+.icon-star {
+    font-size: 12px;
+    color    : orange;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+    /* chữ header thông báo thêm vào giỏ hàng */
+    .text-header-modal-add-cart {
+        font-size  : 16px;
+        color      : blue;
+        font-weight: bold;
+    }
+
+    /* chữ content thông báo thêm vào giỏ hàng */
+    .text-content-modal-add-cart {
+        font-size: 14px;
+        color    : black;
+    }
+
+    /* text */
+    .text-name-product-detail {
+        font-size  : 14px;
+        font-weight: bold;
+    }
+
+    .text-price-old-detail {
+        font-size      : 11px;
+        font-style     : italic;
+        text-decoration: line-through;
+        opacity        : 0.6;
+    }
+
+    .text-price-new-detail {
+        font-size  : 18px;
+        font-weight: bold;
+        color      : rgb(226, 29, 29);
+    }
+
+
+    .text-header-warranty {
+        background-color: #007bff;
+        font-size       : 13px;
+        color           : white;
+        text-align      : center;
+    }
+
+    .text-content-warranty {
+        font-size: 11px;
+        color    : black;
+    }
+
+    .text-content-intro {
+        font-size : 11px;
+        text-align: justify;
+    }
+
+    .text-table-header-config-info {
+        font-size: 12px;
+    }
+
+    .text-table-content {
+        font-size: 12px;
+    }
+    .text-header-info{
+        font-size: 15px;
+        text-align: center;
+        background-color: #007bff;
+        color: white;
+        padding: 4px;
+    }
+
+
+    /* button */
+    .btn-buy {
+        background-color: #fb6e2e;
+        font-size       : 12px;
+        font-weight     : bold;
+        color           : white;
+        transition      : transform 0.4s;
+    }
+
+    .btn-add-cart {
+        background-color: #007bff;
+        font-size       : 12px;
+        font-weight     : bold;
+        color           : white;
+        transition      : transform 0.4s;
+    }
+
+    .btn-buy:hover,
+    .btn-add-cart:hover {
+        color    : white;
+        transform: scale(1.04, 1.04);
+    }
+
+    .btn-product-detail {
+        background-color: gray;
+        color           : white;
+        font-size       : 12px;
+        border-radius   : 20px;
+    }
+
+    .btn-product-detail-default {
+        background-color: #007bff;
+        color           : white;
+        font-size       : 12px;
+        border-radius   : 20px;
+    }
+
+    .btn-product-detail:hover {
+        color: white;
+    }
+
+    .btn-close {
+        font-size: 12px;
+    }
+
+    .btn-modal-cart {
+        font-size: 13px;
+        color    : white;
+    }
+
+    /* image */
+    .image-product-detail {
+        height: 200px;
+    }
+
+    .imgage-product-configuration-information {
+        height: 310px;
+    }
+
+    .imgage-product-introduction {
+        height: 250px;
+    }
+
+    /* icon star */
+    .icon-star {
+        font-size: 12px;
+        color    : orange;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* chữ header thông báo thêm vào giỏ hàng */
+    .text-header-modal-add-cart {
+        font-size  : 18px;
+        color      : blue;
+        font-weight: bold;
+    }
+
+    /* chữ content thông báo thêm vào giỏ hàng */
+    .text-content-modal-add-cart {
+        font-size: 15px;
+        color    : black;
+    }
+
+    /* text */
+    .text-name-product-detail {
+        font-size  : 18px;
+        font-weight: bold;
+    }
+
+    .text-price-old-detail {
+        font-size      : 15px;
+        font-style     : italic;
+        text-decoration: line-through;
+        opacity        : 0.6;
+    }
+
+    .text-price-new-detail {
+        font-size  : 23px;
+        font-weight: bold;
+        color      : rgb(226, 29, 29);
+    }
+
+
+    .text-header-warranty {
+        background-color: #007bff;
+        font-size       : 17px;
+        color           : white;
+        text-align      : center;
+    }
+
+    .text-content-warranty {
+        font-size: 15px;
+        color    : black;
+    }
+
+    .text-content-intro {
+        font-size : 15px;
+        text-align: justify;
+    }
+
+    .text-table-header-config-info {
+        font-size: 14px;
+    }
+
+    .text-table-content {
+        font-size: 13px;
+    }
+
+    .text-header-info{
+        font-size: 16px;
+        text-align: center;
+        background-color: #007bff;
+        color: white;
+        padding: 5px;
+    }
+
+
+    /* button */
+    .btn-buy {
+        background-color: #fb6e2e;
+        font-size       : 16px;
+        font-weight     : bold;
+        color           : white;
+        transition      : transform 0.4s;
+    }
+
+    .btn-add-cart {
+        background-color: #007bff;
+        font-size       : 16px;
+        font-weight     : bold;
+        color           : white;
+        transition      : transform 0.4s;
+    }
+
+    .btn-buy:hover,
+    .btn-add-cart:hover {
+        color    : white;
+        transform: scale(1.04, 1.04);
+    }
+
+    .btn-product-detail {
+        background-color: gray;
+        color           : white;
+        font-size       : 14px;
+        border-radius   : 20px;
+    }
+
+    .btn-product-detail-default {
+        background-color: #007bff;
+        color           : white;
+        font-size       : 14px;
+        border-radius   : 20px;
+    }
+
+    .btn-product-detail:hover {
+        color: white;
+    }
+
+    .btn-close {
+        font-size: 14px;
+    }
+    .btn-modal-cart {
+        font-size: 14px;
+        color    : white;
+    }
+
+    /* image */
+    .image-product-detail {
+        height: 280px;
+    }
+
+    .imgage-product-configuration-information {
+        height: 450px;
+    }
+
+    .imgage-product-introduction {
+        height: 380px;
+    }
+
+    /* icon star */
+    .icon-star {
+        font-size: 16px;
+        color    : orange;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* chữ header thông báo thêm vào giỏ hàng */
+    .text-header-modal-add-cart {
+        font-size  : 19px;
+        color      : blue;
+        font-weight: bold;
+    }
+
+    /* chữ content thông báo thêm vào giỏ hàng */
+    .text-content-modal-add-cart {
+        font-size: 15px;
+        color    : black;
+    }
+
+    /* text */
+    .text-name-product-detail {
+        font-size  : 20px;
+        font-weight: bold;
+    }
+
+    .text-price-old-detail {
+        font-size      : 16px;
+        font-style     : italic;
+        text-decoration: line-through;
+        opacity        : 0.6;
+    }
+
+    .text-price-new-detail {
+        font-size  : 24px;
+        font-weight: bold;
+        color      : rgb(226, 29, 29);
+    }
+
+
+    .text-header-warranty {
+        background-color: #007bff;
+        font-size       : 18px;
+        color           : white;
+        text-align      : center;
+    }
+
+    .text-content-warranty {
+        font-size: 16px;
+        color    : black;
+    }
+
+    .text-content-intro {
+        font-size : 16px;
+        text-align: justify;
+    }
+
+    .text-table-header-config-info {
+        font-size: 15px;
+    }
+
+    .text-table-content {
+        font-size: 14px;
+    }
+
+    .text-header-info{
+        font-size: 18px;
+        text-align: center;
+        background-color: #007bff;
+        color: white;
+        padding: 5px;
+    }
+
+    /* button */
+    .btn-buy {
+        background-color: #fb6e2e;
+        font-size       : 18px;
+        font-weight     : bold;
+        color           : white;
+        transition      : transform 0.4s;
+    }
+
+    .btn-add-cart {
+        background-color: #007bff;
+        font-size       : 18px;
+        font-weight     : bold;
+        color           : white;
+        transition      : transform 0.4s;
+    }
+
+    .btn-buy:hover,
+    .btn-add-cart:hover {
+        color    : white;
+        transform: scale(1.04, 1.04);
+    }
+
+    .btn-product-detail {
+        background-color: gray;
+        color           : white;
+        font-size       : 15px;
+        border-radius   : 20px;
+    }
+
+    .btn-product-detail-default {
+        background-color: #007bff;
+        color           : white;
+        font-size       : 15px;
+        border-radius   : 20px;
+    }
+
+    .btn-product-detail:hover {
+        color: white;
+    }
+
+    .btn-close {
+        font-size: 15px;
+    }
+    .btn-modal-cart {
+        font-size: 15px;
+        color    : white;
+    }
+
+    /* image */
+    .image-product-detail {
+        height: 350px;
+    }
+
+    .imgage-product-configuration-information {
+        height: 500px;
+    }
+
+    .imgage-product-introduction {
+        height: 480px;
+    }
+
+    /* icon star */
+    .icon-star {
+        font-size: 18px;
+        color    : orange;
+    }
+}
